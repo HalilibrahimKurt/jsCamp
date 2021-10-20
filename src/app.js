@@ -1,27 +1,59 @@
-console.log("Merhaba Kodlama.io")
+// console.log("Merhaba Kodlama.io")
 
-let dolarBugun = 9.30
-let dolarDun = 9.20
-dolarDun = "Balıkesir"
+// let dolarBugun = 9.30
+// let dolarDun = 9.20
+// dolarDun = "Balıkesir"
 
-{
-    let dolarDun = 9.10
+// {
+//     let dolarDun = 9.10
+// }
+
+// console.log(dolarDun)
+
+// //CONST ile değişken tanımlar isek onu bir kere tanımlayabiliriz
+// //euroDun = 10.5 yaparsak read-only hatası alırız
+// const euroDun = 11.2
+// //euroDun = 10.5
+
+// console.log(euroDun)
+
+// //Array
+// let konutKredileri = ["Konut kredisi","Emlak konut kredisi","Kamu konut kredisi"]
+
+// console.log("<ul>")
+// for (let i = 0; i < konutKredileri.length; i++) {
+//     console.log("<li>" + konutKredileri[i] + "</li>")
+// }
+// console.log("</ul>")
+
+// let student = {id:1, name:"Halil"}
+// function save(puan=100,ogrenci) {
+//     console.log(ogrenci.name + " :" + puan)
+// }
+
+// save(undefined,student)
+
+//rest
+//varArgs
+let showProducts = function (id,...products) {
+    console.log(id)
+    console.log(products)
 }
 
-console.log(dolarDun)
+//showProducts(10,"Laptop")
+// let points = [1,2,3,50,60,14]
+// console.log(Math.max(...points))
+// console.log(Math.max(points))
+// console.log(Math.max(1,2,3,50,60,14))
 
-//CONST ile değişken tanımlar isek onu bir kere tanımlayabiliriz
-//euroDun = 10.5 yaparsak read-only hatası alırız
-const euroDun = 11.2
-//euroDun = 10.5
+//console.log(..."ABC",..."DE","F",..."GH")
 
-console.log(euroDun)
 
-//Array
-let konutKredileri = ["Konut kredisi","Emlak konut kredisi","Kamu konut kredisi"]
-
-console.log("<ul>")
-for (let i = 0; i < konutKredileri.length; i++) {
-    console.log("<li>" + konutKredileri[i] + "</li>")
-}
-console.log("</ul>")
+//Destructuring
+let populations = [10000,20000,30000,[40000,100000]]
+let [small,medium,high,[veryHigh,maximum]] = populations
+console.log(small)
+console.log(medium)
+console.log(high)
+console.log(veryHigh)
+console.log(maximum)
