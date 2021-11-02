@@ -1,2 +1,2 @@
-# jsCamp
+# JavaScript Camp
  
