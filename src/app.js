@@ -64,13 +64,13 @@
 
 // someFunction(populations)
 
-let category = {id:1,name:"İçecek"}
+// let category = {id:1,name:"İçecek"}
 
-console.log(category.id)
-console.log(category["name"])
+// console.log(category.id)
+// console.log(category["name"])
 
-let {id,name} = category
+// let {id,name} = category
 
-console.log(id)
-console.log(name)
+// console.log(id)
+// console.log(name)
 

@@ -70,25 +70,25 @@
 
 //1000'e kadarki tüm mükemmel sayıları listeleyen programı yazınız.
 
-function mukemmelSayi(...sayi) {
-    let toplam = 0;
-        for(let i = 1; i < sayi.length; i++)
-        {
-            if(sayi[i] % i == 0) {
-                toplam += i;
-            }
-        }
-        if(sayi == toplam) {
-            console.log(sayi[i] + " Mükemmel bir sayidir");
-        }
-}
+// function mukemmelSayi(...sayi) {
+//     let toplam = 0;
+//         for(let i = 1; i < sayi.length; i++)
+//         {
+//             if(sayi[i] % i == 0) {
+//                 toplam += i;
+//             }
+//         }
+//         if(sayi == toplam) {
+//             console.log(sayi[i] + " Mükemmel bir sayidir");
+//         }
+// }
 
 
-mukemmelSayi(28)
+// mukemmelSayi(28)
 
-function deneme(sayi) {
-    for (let i = 0; i <= sayi; i++) {
-        console.log(sayi)
-    }
-}
-deneme(1000)
+// function deneme(sayi) {
+//     for (let i = 0; i <= sayi; i++) {
+//         console.log(sayi)
+//     }
+// }
+// deneme(1000)
