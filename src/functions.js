@@ -103,7 +103,7 @@
 // console.log(icAnadolu.population)
 // console.log(icAnadoluSehirleri)
 
-let newProductName, newUnitPrice, newQuantity
-({productName:newProductName, unitPrice:newUnitPrice, quantity:newQuantity} 
-= {productName: "Elma", unitPrice: 10, quantity: 5})
-console.log(newProductName)
+// let newProductName, newUnitPrice, newQuantity
+// ({productName:newProductName, unitPrice:newUnitPrice, quantity:newQuantity} 
+// = {productName: "Elma", unitPrice: 10, quantity: 5})
+// console.log(newProductName)
